@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Regression Suite" thread-count="2"
+	parallel="tests" verbose="1">
+
+<listeners>
+  <listener class-name="com.qa.Listners.ExtentreportListner"/>
+</listeners>
+
+	<test name="Login Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.parabank.Tests.LoginPageTest"></class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Home page Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.parabank.Tests.HomePageTest"></class>
+		</classes>
+	</test>
+	<test name="Account Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.parabank.Tests.AccountPageTest"></class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Homepage Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.parabank.Tests.RegisterPageTest"></class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

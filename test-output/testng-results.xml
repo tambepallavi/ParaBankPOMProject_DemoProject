@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="27" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation Regression Suite" duration-ms="69241" started-at="2021-09-02T07:50:37Z" finished-at="2021-09-02T07:51:46Z">
+    <groups>
+    </groups>
+    <test name="Home page Test" duration-ms="25024" started-at="2021-09-02T07:50:37Z" finished-at="2021-09-02T07:51:02Z">
+      <class name="com.qa.parabank.Tests.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="setup" is-config="true" duration-ms="17978" started-at="2021-09-02T07:50:37Z" finished-at="2021-09-02T07:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageSetUp()[pri:0, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="homePageSetUp" is-config="true" duration-ms="4313" started-at="2021-09-02T07:50:55Z" finished-at="2021-09-02T07:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetUp -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="verifyPageTitle" duration-ms="43" started-at="2021-09-02T07:50:59Z" finished-at="2021-09-02T07:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="verifyWelcomeMessage()[pri:2, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="verifyWelcomeMessage" duration-ms="346" started-at="2021-09-02T07:50:59Z" finished-at="2021-09-02T07:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMessage -->
+        <test-method status="PASS" signature="verifyOverViewMessage()[pri:3, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="verifyOverViewMessage" duration-ms="272" started-at="2021-09-02T07:51:00Z" finished-at="2021-09-02T07:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewMessage -->
+        <test-method status="PASS" signature="verifyOverviewServiceMessage()[pri:4, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="verifyOverviewServiceMessage" duration-ms="81" started-at="2021-09-02T07:51:00Z" finished-at="2021-09-02T07:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverviewServiceMessage -->
+        <test-method status="PASS" signature="verifyOverViewServicesList()[pri:5, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="verifyOverViewServicesList" duration-ms="367" started-at="2021-09-02T07:51:00Z" finished-at="2021-09-02T07:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewServicesList -->
+        <test-method status="PASS" signature="verifyAccountDetail()[pri:6, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="verifyAccountDetail" duration-ms="164" started-at="2021-09-02T07:51:01Z" finished-at="2021-09-02T07:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountDetail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.parabank.Tests.HomePageTest@aecb35a]" name="tearDown" is-config="true" duration-ms="1310" started-at="2021-09-02T07:51:01Z" finished-at="2021-09-02T07:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.parabank.Tests.HomePageTest -->
+    </test> <!-- Home page Test -->
+    <test name="Login Test" duration-ms="26795" started-at="2021-09-02T07:50:37Z" finished-at="2021-09-02T07:51:04Z">
+      <class name="com.qa.parabank.Tests.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="setup" is-config="true" duration-ms="17978" started-at="2021-09-02T07:50:37Z" finished-at="2021-09-02T07:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyPageTitle" duration-ms="604" started-at="2021-09-02T07:50:55Z" finished-at="2021-09-02T07:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="verifyParaBankLogo()[pri:2, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyParaBankLogo" duration-ms="426" started-at="2021-09-02T07:50:56Z" finished-at="2021-09-02T07:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyParaBankLogo -->
+        <test-method status="PASS" signature="verifyMenuList()[pri:3, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyMenuList" duration-ms="582" started-at="2021-09-02T07:50:57Z" finished-at="2021-09-02T07:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuList -->
+        <test-method status="PASS" signature="verifyHomeIcon()[pri:4, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyHomeIcon" duration-ms="166" started-at="2021-09-02T07:50:57Z" finished-at="2021-09-02T07:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeIcon -->
+        <test-method status="PASS" signature="verifyAboutIcon()[pri:5, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyAboutIcon" duration-ms="167" started-at="2021-09-02T07:50:57Z" finished-at="2021-09-02T07:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutIcon -->
+        <test-method status="PASS" signature="verifyContactIcon()[pri:6, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyContactIcon" duration-ms="169" started-at="2021-09-02T07:50:57Z" finished-at="2021-09-02T07:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactIcon -->
+        <test-method status="PASS" signature="verifyLoginText()[pri:7, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyLoginText" duration-ms="129" started-at="2021-09-02T07:50:58Z" finished-at="2021-09-02T07:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginText -->
+        <test-method status="PASS" signature="verifyAtmServicesLinkTest()[pri:8, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyAtmServicesLinkTest" duration-ms="261" started-at="2021-09-02T07:50:58Z" finished-at="2021-09-02T07:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAtmServicesLinkTest -->
+        <test-method status="PASS" signature="verifyOnlineServicesLinkTest()[pri:9, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyOnlineServicesLinkTest" duration-ms="205" started-at="2021-09-02T07:50:58Z" finished-at="2021-09-02T07:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnlineServicesLinkTest -->
+        <test-method status="PASS" signature="verifyLatestNewsText()[pri:10, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyLatestNewsText" duration-ms="122" started-at="2021-09-02T07:50:58Z" finished-at="2021-09-02T07:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLatestNewsText -->
+        <test-method status="PASS" signature="verifyNewsLink()[pri:11, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyNewsLink" duration-ms="267" started-at="2021-09-02T07:50:58Z" finished-at="2021-09-02T07:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsLink -->
+        <test-method status="PASS" signature="verifyForgotLoginLink()[pri:12, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyForgotLoginLink" duration-ms="128" started-at="2021-09-02T07:50:59Z" finished-at="2021-09-02T07:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotLoginLink -->
+        <test-method status="PASS" signature="verifyRegisterLink()[pri:13, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyRegisterLink" duration-ms="150" started-at="2021-09-02T07:50:59Z" finished-at="2021-09-02T07:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterLink -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:14, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="verifyLoginTest" duration-ms="3276" started-at="2021-09-02T07:50:59Z" finished-at="2021-09-02T07:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.parabank.Tests.LoginPageTest@27d415d9]" name="tearDown" is-config="true" duration-ms="1498" started-at="2021-09-02T07:51:02Z" finished-at="2021-09-02T07:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.parabank.Tests.LoginPageTest -->
+    </test> <!-- Login Test -->
+    <test name="Account Test" duration-ms="20427" started-at="2021-09-02T07:51:04Z" finished-at="2021-09-02T07:51:25Z">
+      <class name="com.qa.parabank.Tests.AccountPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.parabank.Tests.AccountPageTest@15bfd87]" name="setup" is-config="true" duration-ms="10808" started-at="2021-09-02T07:51:05Z" finished-at="2021-09-02T07:51:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageSetUp()[pri:0, instance:com.qa.parabank.Tests.AccountPageTest@15bfd87]" name="homePageSetUp" is-config="true" duration-ms="4726" started-at="2021-09-02T07:51:15Z" finished-at="2021-09-02T07:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetUp -->
+        <test-method status="PASS" signature="verifyAccountPageTitle()[pri:1, instance:com.qa.parabank.Tests.AccountPageTest@15bfd87]" name="verifyAccountPageTitle" duration-ms="171" started-at="2021-09-02T07:51:20Z" finished-at="2021-09-02T07:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountPageTitle -->
+        <test-method status="PASS" signature="verifyAccountText()[pri:2, instance:com.qa.parabank.Tests.AccountPageTest@15bfd87]" name="verifyAccountText" duration-ms="289" started-at="2021-09-02T07:51:20Z" finished-at="2021-09-02T07:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountText -->
+        <test-method status="PASS" signature="verifyAccountQuestion()[pri:3, instance:com.qa.parabank.Tests.AccountPageTest@15bfd87]" name="verifyAccountQuestion" duration-ms="137" started-at="2021-09-02T07:51:21Z" finished-at="2021-09-02T07:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountQuestion -->
+        <test-method status="PASS" signature="verifyAccountOpened()[pri:4, instance:com.qa.parabank.Tests.AccountPageTest@15bfd87]" name="verifyAccountOpened" duration-ms="2325" started-at="2021-09-02T07:51:21Z" finished-at="2021-09-02T07:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountOpened -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.parabank.Tests.AccountPageTest@15bfd87]" name="tearDown" is-config="true" duration-ms="1591" started-at="2021-09-02T07:51:23Z" finished-at="2021-09-02T07:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.parabank.Tests.AccountPageTest -->
+    </test> <!-- Account Test -->
+    <test name="Homepage Test" duration-ms="41669" started-at="2021-09-02T07:51:05Z" finished-at="2021-09-02T07:51:46Z">
+      <class name="com.qa.parabank.Tests.RegisterPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.parabank.Tests.RegisterPageTest@27fe3806]" name="setup" is-config="true" duration-ms="11445" started-at="2021-09-02T07:51:05Z" finished-at="2021-09-02T07:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageSetUp()[pri:0, instance:com.qa.parabank.Tests.RegisterPageTest@27fe3806]" name="homePageSetUp" is-config="true" duration-ms="41" started-at="2021-09-02T07:51:16Z" finished-at="2021-09-02T07:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetUp -->
+        <test-method status="PASS" signature="verifyRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.parabank.Tests.RegisterPageTest@27fe3806]" name="verifyRegistrationForm" duration-ms="7097" started-at="2021-09-02T07:51:21Z" data-provider="getRegistrationFormData" finished-at="2021-09-02T07:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiya1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[LA1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4354.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Kiya1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationForm -->
+        <test-method status="PASS" signature="verifyRegistrationForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.parabank.Tests.RegisterPageTest@27fe3806]" name="verifyRegistrationForm" duration-ms="5899" started-at="2021-09-02T07:51:28Z" data-provider="getRegistrationFormData" finished-at="2021-09-02T07:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diya1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rajapur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[24353.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[576876.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Diya1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationForm -->
+        <test-method status="FAIL" signature="verifyPageTitle()[pri:2, instance:com.qa.parabank.Tests.RegisterPageTest@27fe3806]" name="verifyPageTitle" duration-ms="10262" started-at="2021-09-02T07:51:34Z" finished-at="2021-09-02T07:51:44Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to contain "ParaBank | Customer Created". Current title: "ParaBank | Welcome | Online Banking" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PALLAVI', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\PALLAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0629f36ccb569170b4533dcee218c02]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "ParaBank | Customer Created". Current title: "ParaBank | Welcome | Online Banking" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PALLAVI', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\PALLAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0629f36ccb569170b4533dcee218c02
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.qa.parabank.Util.ElementUtil.waitForPageTitleContentPresent(ElementUtil.java:451)
+at com.qa.parabank.Pages.RegisterPage.getPageTitle(RegisterPage.java:38)
+at com.qa.parabank.Tests.RegisterPageTest.verifyPageTitle(RegisterPageTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.parabank.Tests.RegisterPageTest@27fe3806]" name="tearDown" is-config="true" duration-ms="1395" started-at="2021-09-02T07:51:45Z" finished-at="2021-09-02T07:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.parabank.Tests.RegisterPageTest -->
+    </test> <!-- Homepage Test -->
+  </suite> <!-- Test Automation Regression Suite -->
+</testng-results>

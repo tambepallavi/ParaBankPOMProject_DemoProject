@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Regression Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.Listners.ExtentreportListner"/>
+  </listeners>
+  <test thread-count="2" name="Homepage Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.parabank.Tests.RegisterPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="homePageSetUp"/>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- com.qa.parabank.Tests.RegisterPageTest -->
+    </classes>
+  </test> <!-- Homepage Test(failed) -->
+</suite> <!-- Failed suite [Test Automation Regression Suite] -->

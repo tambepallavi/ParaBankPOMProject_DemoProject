@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.parabank.Tests.LoginPageTest">
+        <methods>
+          <include name="verifyAboutIcon"/>
+          <include name="verifyNewsLink"/>
+          <include name="verifyPageTitle"/>
+          <include name="setup"/>
+          <include name="verifyAtmServicesLinkTest"/>
+          <include name="verifyContactIcon"/>
+          <include name="verifyLoginTest"/>
+          <include name="verifyHomeIcon"/>
+          <include name="verifyLoginText"/>
+          <include name="verifyOnlineServicesLinkTest"/>
+          <include name="verifyLatestNewsText"/>
+          <include name="verifyMenuList"/>
+          <include name="verifyForgotLoginLink"/>
+          <include name="tearDown"/>
+          <include name="verifyRegisterLink"/>
+          <include name="verifyParaBankLogo"/>
+        </methods>
+      </class> <!-- com.qa.parabank.Tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
